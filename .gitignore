@@ -1,0 +1,14 @@
+# Local History for Visual Studio Code
+.history/
+
+# Windows Installer files from build outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
