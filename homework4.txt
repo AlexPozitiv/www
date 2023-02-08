@@ -1,0 +1,33 @@
+using System;
+// ---------------------------------------------------------------------------
+
+//X = 10
+//Y = 12
+//Sum = 10 + 11 + 12 = 33
+int x = 10;
+int y = 12;
+Console.WriteLine("Result: x+11+y = " + (x+11+y).ToString());
+// ---------------------------------------------------------------------------
+// X=5
+// Y=2
+// Sum=2+3+4+5=14
+x=5;
+y=2;
+Console.WriteLine("Result: y+3+4+x = " + (y+3+4+x).ToString());
+// ---------------------------------------------------------------------------
+// X=10
+// Y=10
+// Sum=10
+x=10;
+y=10;
+Console.WriteLine("Result: (x*x)/y = " + ((x*x)/y).ToString());
+// ---------------------------------------------------------------------------
+Console.WriteLine("\n\n");
+Console.WriteLine("Check if write number is >10 || <100");
+string? strtmp = Console.ReadLine();
+int z = 0;
+z = 	;
+if(z >10 && z <100)
+    Console.WriteLine("true :::::::: z >10 || z <100");
+else
+    Console.WriteLine("fase ::::::::         z >10 || z <100");
