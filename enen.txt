@@ -1,0 +1,56 @@
+cd first-repo 
+git init
+git add readme.md
+git commit -m "add readme.md"
+
+git status
+
+git add .
+git rm
+
+git chekout -b new
+git chekout master
+git chekout new
+
+git merge master
+
+git branch
+git checkout -b [name_of_your_new_branch]
+//if at branch master
+git merge new_branch
+
+//see all commit at 
+git log --graph my_branch
+
+git reflog
+
+delete
+git checkout master
+git branch -d <branch_name>
+
+git config --global user.name ""
+git config --global user.email ""
+
+
+
+cw +teb console writeline
+
+
+…or create a new repository on the command line
+
+echo "# first" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AlexPozitiv/first.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/AlexPozitiv/first.git
+git branch -M main
+git push -u origin main
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
